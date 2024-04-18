@@ -5,16 +5,10 @@ Sudoku.js
 
 A Sudoku puzzle **generator** and **solver** JavaScript library.
 
-Check out the [online demo][demo] to see it in action.
+Check out the  to see it in action.
 
-Implementation ideas borrowed from
-["Solving Every Sudoku Puzzle"][norvig-sudoku] by 
-[Peter Norvig][norvig], and a [generator/solver][anderson-sudoku] by 
-[Michael Anderson][anderson].
 
-[demo]:http://htmlpreview.github.io/?https://github.com/robatron/sudoku.js/blob/master/demo/index.html
 
-Intro
 --------------------------------------------------------------------------------
 
 Puzzles are represented by a string of digits, 1-9, and '.' as spaces. Each
@@ -36,7 +30,7 @@ Represents the following board:
     . . . | . 3 . | . 2 .   
     . . 8 | 7 . . | . . .
 
-(See the included [converstion functions](#board-string-%E2%86%94-grid) to 
+ to 
 convert between string representations and grids, i.e., two-dimensional arrays.)
 
 
